@@ -222,6 +222,7 @@ a:hover, a:focus{
  height: 100vh;
   background-size: 100% !important;
   background-position:top center !important;
+  background-repeat: no-repeat !important;
 }
 .banner{
   background:url(../img/banner.png);
@@ -896,6 +897,105 @@ a:hover, a:focus{
 .hous_box9 .pull-left ul li a i{
   margin-right: 5px;
 }
+.inndeer {
+  padding: 25px 0;
+  background: #f1f1f1;
+}
+.inndeer h4 {
+  font-size: 15px;
+  margin: 0;
+  /* text-align: center; */
+}
+.hous_box1 {
+  margin-bottom: 30px;
+}
+.aboutt_cont h4{
+  font-weight: 600;
+  color: #de2021;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.aboutt_cont p,
+.aboutt_cont ul
+
+{
+  font-size: 16px;
+  line-height: 25px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.hous_box20 {
+  border-top: 7px solid #de2021;
+  border-radius:6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.icon_inp {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.icon_inp i, .icon_inp img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #de2021;
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  z-index: 1;
+}
+.icon_inp i {
+  top: 15px;
+  left: 15px;
+}
+.icon_inp input,
+ .icon_inp select, 
+ .icon_inp textarea {
+  padding-left: 37px;
+}
+.hous_box21 {
+
+  text-align: center;
+}
+.hous_box21 i {
+  font-size: 55px;
+  color: #de2021;
+  text-shadow: -2px 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+.hous_box21 h4 {
+  color: #333;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.hous_box21 p {
+  color: #999;
+}
+.hous_box22{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
+.hous_box23{
+  padding-bottom: 60px;
+}
+/*.hous_box23{
+  background: #f7f7f7;
+}*/
+.mapsss {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  padding: 6px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
 /*media start*/
 @media(max-width: 1100px){
   .main_nav .navbar-default .navbar-nav > li > a {
@@ -1048,6 +1148,25 @@ min-height: 45px;
 }/*768 close*/
 
 @media(max-width: 767px){
+  .hous_box4{
+    margin-bottom: 30px;
+  }
+  .banner3{
+    height: 250px;
+    background-size: cover !important;
+  }
+  .top_scrider .slider_arrrw.owl-carousel .owl-nav button.owl-next,
+   .top_scrider .slider_arrrw.owl-carousel .owl-nav button.owl-prev,
+    .top_scrider .slider_arrrw.owl-carousel button.owl-dot {
+    width: 30px;
+  height: 30px;
+  line-height: 0;
+}
+.top_scrider .slider_arrrw.owl-carousel .owl-nav button.owl-next span, 
+.top_scrider .slider_arrrw.owl-carousel .owl-nav button.owl-prev span, 
+.top_scrider .slider_arrrw.owl-carousel button.owl-dot span {
+  font-size: 35px;
+}
   .arett_me{
     display: none;
   }
